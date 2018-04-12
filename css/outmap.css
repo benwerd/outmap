@@ -1,21 +1,51 @@
 body {
-    background: #333; /* #fefefe; */
-    color: #fefefe; /* #333; */
-    font-family: "adobe-caslon-pro";
+    background: #fefefe; /* #fefefe; */
+    color: #333; /* #333; */
+    font-family: Helvetica, Arial, Sans-Serif;
 }
 
 h1 {
     margin-top: 25px;
-    font-size: 45px;
+    font-size: 100px;
     font-family: "kulturista-web";
     font-weight: 100;
 }
 
+h2,h3 {
+    font-family: "kulturista-web";
+    text-align: center;
+}
+
 h1:first-of-type {
     margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2:first-of-type {
+
 }
 
 p {
     font-size: 22px;
     line-height: 40px;
+}
+
+h1 img {
+    height: 150px;
+}
+
+.btn-primary {
+    background-color: #333;
+    border: #333 solid 3px;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+    border: #333 solid 3px;
+}
+
+#mc_embed_signup {
+    margin-top: 50px;
+    text-align: center;
 }
