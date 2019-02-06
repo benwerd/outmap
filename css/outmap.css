@@ -21,6 +21,10 @@ h1:first-of-type {
     text-align: center;
 }
 
+img {
+    max-width: 100%;
+}
+
 @media only screen
 and (max-device-width : 768px) {
     h1:first-of-type {
